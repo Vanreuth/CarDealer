@@ -4,10 +4,10 @@ Car Dealer Website:
  - Home
  - Cars
  - More
-  + Blog
-  + Team
-  + Testimonails
-  + Terms
+   Blog
+   Team
+   Testimonails
+   Terms
  - About Us
  - Contact Us
 

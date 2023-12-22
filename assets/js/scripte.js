@@ -29,7 +29,7 @@ allNavbar.addEventListener("mouseover",(e)=>{
 });
 
 //slider
-var swiper = new Swiper(".silder", {
+   var swiper = new Swiper(".silder", {
     spaceBetween: 30,
     centeredSlides: true,
     autoplay: {
