@@ -1,3 +1,18 @@
+// srolled
+const navscroll = document.querySelector(".navbar");
+window.addEventListener("scroll",() =>{
+  if(window.scrollY >=400){
+    navscroll.classList.add('navbar-scrolled');
+
+  }
+  else if(window.scrollY <300)
+  navscroll.classList.remove('navbar-scrolled');
+  
+});
+
+
+
+
 //active navbar
 const allNavlink = document.querySelectorAll(".nav-link");
 const allNavbar = document.querySelector(".navbar-nav"); 

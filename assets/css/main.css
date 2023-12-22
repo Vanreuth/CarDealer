@@ -4,6 +4,7 @@
     --text-danger:#f33f3f;
     --color-dogerblue:#1a6692;
     --color-blue:#007bff;
+    --color-gray:#999;
 }
 *{
     margin: 0;
@@ -13,7 +14,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
-    color: #fff;
+    color: black;
     font-size: 1.5rem;
 }
 ul {
@@ -21,7 +22,6 @@ ul {
 }
 a{
     text-decoration: none!important;
-    color: #fff;
 }
 a{
     font-size: 18px;
@@ -43,6 +43,18 @@ a{
 }
 .section-header>a>i{
     font-size: 10px;
+}
+/* Header */
+.navbar{
+    background-color: #14151F;
+}
+.navbar-scrolled{
+    color: #f33f3f;
+    background-color: grey!important;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
+}
+.navbar{
+    transition: all 0.5s ease-in-out;
 }
 /* navigation */
 .navbar .navbar-brand{
@@ -261,6 +273,108 @@ a{
 }
 /* footer */
 .footer{
-    /* background-color: black; */
-    height: 200px;
+    background-color: black; 
+    padding: 50px 0;
+    color: var(--color-gray);
+    font-size: 20px;
+}
+.icon-social{
+    width: 100%;
+}
+.icon-social>ul{
+    padding: 0;
+}
+.icon-social>ul>li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.icon-social>ul>li>a{
+    color: #eee;
+    display: inline-block; 
+    width: 36px;  
+    background-color: #14151F;
+    border-radius: 50%;
+    height: 36px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 36px;
+}
+.icon-social>ul>li>a:hover{
+    background-color: #f33f3f;
+}
+.footer-information>h3{
+    font-weight: 600; 
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.footer-information .list-information{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.list-information >ul{
+    margin: 0;
+    padding: 0;
+}
+.list-information >ul>li>a{
+    color:var(--color-gray);
+    font-size: 20px;
+    font-weight: 500;
+}
+.list-information>ul>li>a>i{
+    padding-right: 10px;
+    font-size: 15px;
+}
+.list-information>ul>li>a:hover{
+    color: #f33f3f;
+}
+
+
+/* Car-page */
+.page-header{
+    text-align: center;
+   padding: 280px 130px;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.page-header .text-header>h4{
+    color: #f33f3f;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.page-header .text-header>h2{
+    color:#fff;
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 10px;
+    
+}
+.page-item .active-pagination{
+    background-color: #f33f3f;
+    color: white;
+    font-weight: bold;
+}
+.page-item .page-link:hover{
+    background-color: #f33f3f;
+    color: white !important;
+    font-weight: bold;
+}
+/* product */
+.product{
+    margin: 60px 0;
+}
+.lable{
+    font-size: 20px;
+}
+.team{
+    margin: 100px 0;
+}
+/* term */
+.term{
+    margin: 100px 0;
+}
+.about-us{
+    margin: 100px 0;
 }
