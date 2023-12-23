@@ -47,8 +47,8 @@ allNavbar.addEventListener("mouseover",(e)=>{
   });
 
    var swiper = new Swiper('.card-client', {
-     slidesPerView: 3,
-     spaceBetween: 50,
+     slidesPerView: 2,
+     spaceBetween: 20,
     //  autoplay:{
     //     delay:2000,
     //     disableOnInteraction:false,
